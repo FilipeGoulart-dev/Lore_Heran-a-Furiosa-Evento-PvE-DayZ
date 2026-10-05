@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "1324f3aa58d2545eb2d1802b78ec8938cbb589de",
+  "files": [
+    {
+      "path": "assets/audio/six_days_drive.mp3",
+      "original_path": "six_days_drive.mp3",
+      "size_bytes": 6635327,
+      "sha256": "d543fb049a1aea2532a914e0f746e1f2b4204fbf5850bcdd3a867b687cb06eb2"
+    },
+    {
+      "path": "assets/images/locations/dayz-ssm-mansion-mod-j-12-dayz-mansion-s-1.jpg",
+      "original_path": "dayz-ssm-mansion-mod-j-12-dayz-mansion-s-1.jpg",
+      "size_bytes": 3878,
+      "sha256": "e4285c4546c7eb172e86b3486be5cc46a4cdd88b2cc9ca0a078c2e5b971d8d37"
+    },
+    {
+      "path": "assets/images/locations/dayz-ssm-mansion-mod-j-12-dayz-mansion-s-2.jpg",
+      "original_path": "dayz-ssm-mansion-mod-j-12-dayz-mansion-s-2.jpg",
+      "size_bytes": 984127,
+      "sha256": "6282848d273f6b6ae8ec36c4a12eb503aea59b73f7da16d2a5e836736d57c618"
+    },
+    {
+      "path": "assets/images/locations/dayz-valning-mansion-island-villa-screen-1.jpg",
+      "original_path": "dayz-valning-mansion-island-villa-screen-1.jpg",
+      "size_bytes": 3341,
+      "sha256": "ce596afcb99e0919fe4a4382468689eb7bf1ecc6a1346c314a49d234cab96c9f"
+    },
+    {
+      "path": "assets/images/locations/dayz-valning-mansion-island-villa-screen-2.png",
+      "original_path": "dayz-valning-mansion-island-villa-screen-2.png",
+      "size_bytes": 57364,
+      "sha256": "77e1ec46032cc317f352b93ef08c12a1bac24d2a8cb3b4dc7f2e0e5bf88365f3"
+    },
+    {
+      "path": "assets/images/locations/dayz-valning-mansion-island-villa-screen-3.jpg",
+      "original_path": "dayz-valning-mansion-island-villa-screen-3.jpg",
+      "size_bytes": 4464,
+      "sha256": "0841bec97c328f4eeee67bd63f0d4031d722c616a22f742ead04eb6f65ef6c4f"
+    },
+    {
+      "path": "assets/images/locations/mansion_ssm.jpg",
+      "original_path": "mansion_ssm.jpg",
+      "size_bytes": 68696,
+      "sha256": "641eca6641a7281ff8e6c74791011c77e497eb6b1b00e8d727c2236f7a016482"
+    },
+    {
+      "path": "assets/images/locations/mansion_villa_reference.jpg",
+      "original_path": "mansion_villa_reference.jpg",
+      "size_bytes": 144915,
+      "sha256": "a111a780a20b3e4fdef4ad3d84e0cbd891685761c4aa44e0457567ccf9e71f6f"
+    },
+    {
+      "path": "assets/images/locations/mikey_1.jpg",
+      "original_path": "mikey_1.jpg",
+      "size_bytes": 84021,
+      "sha256": "134b21f9e7ee0655429a30fa13bcbbffe584214906cf9b74c77db77eff767f7b"
+    },
+    {
+      "path": "assets/images/locations/mikey_2.jpg",
+      "original_path": "mikey_2.jpg",
+      "size_bytes": 132435,
+      "sha256": "d5fe78f5a3f1b1f5a9e6e0259fe136a04af912ebbce67f895922c84e496a4106"
+    },
+    {
+      "path": "assets/images/locations/mikey_3.jpg",
+      "original_path": "mikey_3.jpg",
+      "size_bytes": 90282,
+      "sha256": "043336a4d1ca8dced8c5e790d32835e48c3c3a4a81cb142abcc42c70efb7d4d8"
+    },
+    {
+      "path": "assets/images/locations/valning_map.jpg",
+      "original_path": "valning_map.jpg",
+      "size_bytes": 97469,
+      "sha256": "5cde4f1a7fe0a24b37677d09bbe75c8747a0fcee7241c9ea3765cfb76b0534dc"
+    },
+    {
+      "path": "assets/images/mods/collectibles_1.jpg",
+      "original_path": "collectibles_1.jpg",
+      "size_bytes": 176160,
+      "sha256": "5d94c5adfc5b46e5b7aa9aaaf6fe33e9b6bf461a625024e616041dfe5734a319"
+    },
+    {
+      "path": "assets/images/mods/collectibles_2.jpg",
+      "original_path": "collectibles_2.jpg",
+      "size_bytes": 72079,
+      "sha256": "3db56b5aa04f23a0bd39c2a965974cb3dc45d4aa599ca95d9c6a6d9a8ff55dd5"
+    },
+    {
+      "path": "assets/images/mods/expansion_ai.jpg",
+      "original_path": "expansion_ai.jpg",
+      "size_bytes": 152688,
+      "sha256": "d3728e7e98feb9d5af03763e44b40b8534bde03737a723fb497e9ddae6d22bcc"
+    },
+    {
+      "path": "assets/images/mods/mining_1.jpg",
+      "original_path": "mining_1.jpg",
+      "size_bytes": 126166,
+      "sha256": "c27416a6d6f3d2797eba130874a30391703ccc8a4b49f826ca5d8b18f535c2b7"
+    },
+    {
+      "path": "assets/images/mods/mining_2.jpg",
+      "original_path": "mining_2.jpg",
+      "size_bytes": 214933,
+      "sha256": "44db3e3d9d8deb09196e08069d21141ed00445893bd67fddf31b15d5593fc3ab"
+    },
+    {
+      "path": "assets/images/mods/money_goldbars.jpg",
+      "original_path": "money_goldbars.jpg",
+      "size_bytes": 104328,
+      "sha256": "a681c4ffec8d234de85b889cfd41f503e8abf2a8a057dacec56473a02c7669fa"
+    },
+    {
+      "path": "assets/images/mods/moremoney_hero.jpg",
+      "original_path": "moremoney_hero.jpg",
+      "size_bytes": 156077,
+      "sha256": "63eaa11ccbeb0ce8b0937a4a4452280d6303ce35280db517560c8b8c0ac883a4"
+    },
+    {
+      "path": "assets/images/references/Screenshot_2026-10-05-10-15-11-608_com.brave.browser-edit.jpg",
+      "original_path": "Screenshot_2026-10-05-10-15-11-608_com.brave.browser-edit.jpg",
+      "size_bytes": 332450,
+      "sha256": "6fa8baa0f100e48778e6c3fc12297b0caa5cbacb9abddd656c539f8b99515dd9"
+    },
+    {
+      "path": "assets/images/vehicles/charger_ext_1.jpg",
+      "original_path": "charger_ext_1.jpg",
+      "size_bytes": 150766,
+      "sha256": "a3915b6e8d05f05d11ee2ebb5bdb20b11b7a58fdbe451c41ec01762ef3f23e09"
+    },
+    {
+      "path": "assets/images/vehicles/charger_ext_2.jpg",
+      "original_path": "charger_ext_2.jpg",
+      "size_bytes": 166546,
+      "sha256": "f036f422e203a357c2cf332c46508d1ea8dd9bfcf651d040f4654fa6f21212b0"
+    },
+    {
+      "path": "assets/images/vehicles/charger_thumb.jpg",
+      "original_path": "charger_thumb.jpg",
+      "size_bytes": 110832,
+      "sha256": "723564f55b961fa32ea1e571924c581020eca1d124a0d9f48aef311f3a730443"
+    },
+    {
+      "path": "assets/images/vehicles/charger_workshop.jpg",
+      "original_path": "charger_workshop.jpg",
+      "size_bytes": 67747,
+      "sha256": "8d0e9ad4f1c4112479fe75d401fdeabac5e6cbf43386db552aed21bd91c0ad78"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-1970-dodge-charger-r-t-mod-dayz-wor-1.jpg",
+      "original_path": "dayz-1970-dodge-charger-r-t-mod-dayz-wor-1.jpg",
+      "size_bytes": 92409,
+      "sha256": "b490179ce56b4f411f7ece819afbd4c13c1b6d4aa0c97a44b20295b3c3b6936d"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-1970-dodge-charger-r-t-mod-dayz-wor-2.png",
+      "original_path": "dayz-1970-dodge-charger-r-t-mod-dayz-wor-2.png",
+      "size_bytes": 18589,
+      "sha256": "87dc01aa45231dbb8b29bbe85e8888d1211e7c55ee6e7be51c5936ec8065fd8a"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-mazda-rx-7-fd-mod-car-1.jpg",
+      "original_path": "dayz-mazda-rx-7-fd-mod-car-1.jpg",
+      "size_bytes": 52771,
+      "sha256": "167892a4d94e484e41259257fb8602a966c48335ffb7435d4d85d2dbc4eba08f"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-mazda-rx-7-fd-mod-car-2.jpg",
+      "original_path": "dayz-mazda-rx-7-fd-mod-car-2.jpg",
+      "size_bytes": 5082,
+      "sha256": "23868add72282fd923078624e3f3fb197c41a93926d090e4b1eba8eb0ca9c72d"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-nissan-silvia-s15-car-mod-dayz-1.jpg",
+      "original_path": "dayz-nissan-silvia-s15-car-mod-dayz-1.jpg",
+      "size_bytes": 34846,
+      "sha256": "3d901483283f91f8454ebe483d8dcd094c868e40fb0a32b6e062ac5d0ba97f13"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-nissan-silvia-s15-car-mod-dayz-2.jpg",
+      "original_path": "dayz-nissan-silvia-s15-car-mod-dayz-2.jpg",
+      "size_bytes": 5082,
+      "sha256": "23868add72282fd923078624e3f3fb197c41a93926d090e4b1eba8eb0ca9c72d"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-nissan-skyline-r34-mod-car-dayz-4kb-1.png",
+      "original_path": "dayz-nissan-skyline-r34-mod-car-dayz-4kb-1.png",
+      "size_bytes": 1517069,
+      "sha256": "00aea00007cfb948c9624d3310cc126f09b21cd0e9c57c65e11abe623a5bdc54"
+    },
+    {
+      "path": "assets/images/vehicles/dayz-nissan-skyline-r34-mod-car-dayz-4kb-2.png",
+      "original_path": "dayz-nissan-skyline-r34-mod-car-dayz-4kb-2.png",
+      "size_bytes": 1541995,
+      "sha256": "f1ca9f4b9beb10bc04ac04d690c66b927317939f103621a94c509b7a23f9524c"
+    },
+    {
+      "path": "assets/images/vehicles/r34_thumb.jpg",
+      "original_path": "r34_thumb.jpg",
+      "size_bytes": 98562,
+      "sha256": "28458190238f190b2af33bf1b4abeb21b8e9f5eecf7fe4cc32221f448572382b"
+    },
+    {
+      "path": "assets/images/vehicles/r34_workshop.jpg",
+      "original_path": "r34_workshop.jpg",
+      "size_bytes": 143976,
+      "sha256": "553964285c0c7b91fa100100dffb8b1521c6820251f4305c2a0e550e789a6f19"
+    },
+    {
+      "path": "assets/images/vehicles/rx7_han_concept.jpg",
+      "original_path": "rx7_han_concept.jpg",
+      "size_bytes": 250607,
+      "sha256": "58825729ee907a03f761a348502ffb4618bf618a08cd269aaf66203a7fb00054"
+    },
+    {
+      "path": "assets/images/vehicles/rx7_han_concept.png",
+      "original_path": "rx7_han_concept.png",
+      "size_bytes": 3365453,
+      "sha256": "159aa1140e37391cd6a2b322993e86fc735cffb3b866e97f47bd8aa57f430364"
+    },
+    {
+      "path": "assets/images/vehicles/s15_ext_1.jpg",
+      "original_path": "s15_ext_1.jpg",
+      "size_bytes": 116597,
+      "sha256": "63072de0ae79a229206f678ab4760829f79357328f19387c5813471752108a82"
+    },
+    {
+      "path": "assets/images/vehicles/s15_ext_2.jpg",
+      "original_path": "s15_ext_2.jpg",
+      "size_bytes": 125914,
+      "sha256": "97855bdea18a46dbaee800d929654f642b72341697cf0d5c915058c7405f607c"
+    },
+    {
+      "path": "assets/images/vehicles/s15_ext_3.jpg",
+      "original_path": "s15_ext_3.jpg",
+      "size_bytes": 124879,
+      "sha256": "8694b384aa415816d5115fd49c3922381414d40a873887c78d641de980fbf1f0"
+    },
+    {
+      "path": "assets/images/vehicles/s15_thumb.jpg",
+      "original_path": "s15_thumb.jpg",
+      "size_bytes": 108447,
+      "sha256": "640df4b1ba40b69181b37eb03b8c3a44209a7e2a8975d85e7f76f62ce5b76cfb"
+    },
+    {
+      "path": "assets/images/vehicles/s15_workshop.jpg",
+      "original_path": "s15_workshop.jpg",
+      "size_bytes": 138542,
+      "sha256": "6da7d08c3c57e913088bde2fdce98e0e56bbfd17684cf2d7e45f52689819f997"
+    }
+  ]
+}

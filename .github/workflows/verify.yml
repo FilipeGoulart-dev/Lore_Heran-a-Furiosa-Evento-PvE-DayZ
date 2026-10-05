@@ -1,0 +1,25 @@
+name: Verificar repositório
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Conferir referências e mídias
+        run: python3 scripts/check_repository.py
+      - name: Executar testes do verificador
+        run: python3 -m unittest discover -s tests -v

@@ -1,0 +1,10 @@
+# Arquivos locais e temporários
+.DS_Store
+Thumbs.db
+.cache/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.idea/
+.vscode/
