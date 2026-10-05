@@ -2,6 +2,8 @@
 **Subtítulo:** *A Mansão do Milionário e o Tesouro sobre Rodas*  
 **Modalidade:** PvE Tático (Foco em Combate contra IA, Exploração de Dupla Etapa e Extração de Veículo)
 
+> **Documento de planejamento:** quantidades, preços, veículos e mecânicas são sugestões. Este roteiro não inclui configurações executáveis. Consulte o [guia de preparação do servidor](preparacao-servidor.md) para definir mods, classnames, integrações e testes.
+
 ---
 
 ## 📖 1. LORE (História do Evento)
@@ -35,14 +37,14 @@ O Colecionador local descobriu a localização da mansão e lançou uma proposta
 * **Recompensa do Milionário:** No inventário do zumbi do milionário está a **Chave Original do Carro (Car Key)** e um item de luxo lendário (ex: Maleta de Diamantes ou Colar Imperial).
 
 ### Fase 4: A Garagem, Montagem Rápida e a Grande Escolha
-* Com o **Cartão da Garagem** (pego no Líder Bot) + a **Chave do Carro** (pega no Milionário Zumbi), os jogadores finalmente abrem a garagem blindada.
-* Lá dentro está o carro do mod *Velozes e Furiosos* (ex: **Dodge Charger R/T 1970**, **Nissan Skyline GT-R R34**, **Toyota Supra MK4** ou **Mitsubishi Eclipse**).
+* Com o **Cartão da Garagem** (pego no Líder Bot), os jogadores abrem a garagem blindada. A **Chave do Carro** (pega no Milionário Zumbi) permite usar o veículo, conforme o sistema de chaves do mod escolhido. Exigir os dois itens na própria porta depende de uma integração adicional.
+* Lá dentro está um veículo temático inspirado em *Velozes e Furiosos* (ex: **Dodge Charger R/T 1970**, **Nissan Skyline GT-R R34**, **Toyota Supra MK4** ou **Mitsubishi Eclipse**), a definir entre os mods disponíveis no servidor.
 * **Mecânica de Tensão (Montagem Rápida):** A gangue estava fazendo manutenção no carro quando foi surpreendida. O veículo está com a lataria e rodas 100%, mas **desmontado**:
   * **Sem Bateria de Carro**
   * **Sem Vela de Ignição (Spark Plug)**
   * **Radiador sem água**
   * **Tanque na reserva**
-* Todas essas peças (Bateria, Vela, Garrafa/Cantil de Água e Galão de Gasolina) estão espalhadas nas **prateleiras da garagem** (ou metade na garagem e metade na despensa da mansão, para obrigar o grupo a procurar).
+* Todas essas peças (Bateria, Vela, recipientes com água suficiente para o radiador e Galão de Gasolina) estão espalhadas nas **prateleiras da garagem** (ou metade na garagem e metade na despensa da mansão, para obrigar o grupo a procurar). A quantidade de água deve ser testada com o veículo escolhido.
 * **Dica de Emoção Extra (PvE):** Ao abrir a porta da garagem ou ligar o motor, você pode configurar um pequeno *spawn* final de 3 a 4 bots "Batedores da Gangue" chegando pelo portão da frente, obrigando um jogador a dar cobertura enquanto o outro termina de colocar a bateria, a vela e a água no radiador!
 
 ---
@@ -79,7 +81,9 @@ O segredo para o jogador ficar em dúvida entre **vender o carro** ou **ficar co
 
 ### O Grande Prêmio: O Carro de *Velozes e Furiosos*
 * **Opção A (Vender no Colecionador):** O carro vale **300.000 a 500.000 moedas** (o suficiente para o jogador ou clã comprar equipamentos de ponta, helicóptero ou expandir a base inteira).
-* **Opção B (Ficar com o Carro):** O jogador abre mão dos 300k–500k do veículo, mas ganha um carro único no servidor, veloz, estiloso e que chama atenção por onde passa (e ainda lucra ~150k vendendo apenas os itens de luxo que pegou dentro da mansão).
+* **Opção B (Ficar com o Carro):** O jogador abre mão dos 300k–500k do veículo, mas ganha um carro único no servidor, veloz, estiloso e que chama atenção por onde passa (e ainda pode lucrar vendendo os itens de luxo que recolheu dentro da mansão).
+
+**Conferência dos valores sugeridos:** a coleta de todos os itens dos três tiers acima soma **220.000 a 490.000 moedas**, sem incluir loot extra dos guardas. Com a venda do carro, o total teórico sobe para **520.000 a 990.000 moedas**. Ajuste quantidades e preços à economia do servidor; esses totais não são ganhos garantidos.
 
 ---
 
@@ -143,7 +147,7 @@ Em servidores PvE, regras claras evitam qualquer discussão no ticket com a admi
 
 - [ ] **Carro na Garagem:** Spawnar o veículo escolhido (ex: *Skyline R34 / Charger 70 / Supra*) dentro da garagem trancada.
 - [ ] **Retirar as Peças do Carro:** Tirar a *CarBattery* e a *SparkPlug* do carro, deixar o radiador sem água e o combustível baixo (15%).
-- [ ] **Esconder Peças na Garagem:** Colocar a Bateria, Vela, 1 Galão de Gasolina e 1 Garrafa de Água/Cantil nas estantes/chão da garagem (com tempo de *despawn* longo para não sumirem antes do evento acabar!).
-- [ ] **Vincular a Chave:** Garantir que a chave do carro (*CarKey*) já está vinculada ao veículo e colocá-la no inventário do **Zumbi do Milionário**.
+- [ ] **Esconder Peças na Garagem:** Colocar a Bateria, Vela, combustível e recipientes com **água suficiente para completar o radiador do veículo escolhido** nas estantes/chão da garagem. Testar a quantidade necessária; uma garrafa/cantil pode não bastar. Usar tempo de *despawn* longo para não sumirem antes do evento acabar!
+- [ ] **Vincular a Chave:** Usar a classe de chave real do mod escolhido, vinculá-la ao veículo e testar sua recuperação no loot do **Zumbi do Milionário**. Inventário e drop personalizados dependem do sistema de infectados utilizado.
 - [ ] **Vincular o Cartão da Garagem:** Garantir que a porta da garagem está trancada e que o **Cartão/Chave da Porta** está no inventário do **Bot Líder da Gangue**.
 - [ ] **Conferir Preço no Trader:** Testar no **Colecionador** se o classname do carro e os classnames dos itens de luxo estão cadastrados com o preço de venda correto.

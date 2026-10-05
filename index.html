@@ -1,1 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Herança Furiosa: roteiro e referências de um evento PvE para DayZ com uma mansão, uma fortuna e um veículo lendário.">
+    <meta name="theme-color" content="#111615">
+    <title>Herança Furiosa — Dossiê do evento PvE DayZ</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body id="inicio">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark" aria-hidden="true">HF<span>↗</span></span>
+          <span>HERANÇA FURIOSA<small>DOSSIÊ DE EVENTO · DAYZ PvE</small></span>
+        </a>
+        <nav aria-label="Navegação principal">
+          <a href="#historia">História</a>
+          <a href="#missao">A missão</a>
+          <a href="#veiculos">Veículos</a>
+          <a href="#documentacao">Documentação <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
 
+    <main id="conteudo">
+      <section class="hero container" aria-labelledby="titulo">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="signal" aria-hidden="true"></span> TRANSMISSÃO DO COLECIONADOR</p>
+          <h1 id="titulo">Herança<br><em>Furiosa.</em></h1>
+          <p class="hero-subtitle">A Mansão do Milionário e o Tesouro sobre Rodas.</p>
+          <p class="hero-description">Uma gangue tomou a mansão. O antigo dono ainda guarda a chave. Entre na propriedade, recupere a fortuna e decida o destino de uma máquina lendária.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#missao">Conhecer a missão <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="docs/roteiro_evento_mansao_milionario.md">Ler o roteiro completo <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="status-note">CONCEITO EM PLANEJAMENTO · NÃO É UM MOD INSTALÁVEL</p>
+        </div>
+        <figure class="hero-visual">
+          <img src="assets/images/vehicles/rx7_han_concept.jpg" alt="Referência conceitual: um esportivo laranja diante de uma mansão ao anoitecer." width="1535" height="864" fetchpriority="high">
+          <figcaption><span>ARQUIVO VISUAL / 001</span> RX-7 · referência conceitual</figcaption>
+        </figure>
+      </section>
+
+      <div class="mission-strip container" aria-label="Resumo do conceito">
+        <div><strong>04</strong><span>Fases de operação</span></div>
+        <div><strong>02</strong><span>Objetivos de acesso</span></div>
+        <div><strong>01</strong><span>Grande escolha final</span></div>
+        <p>COMBATE CONTRA IA<br>EXPLORAÇÃO & EXTRAÇÃO</p>
+      </div>
+
+      <section id="historia" class="section container story" aria-labelledby="historia-titulo">
+        <div>
+          <p class="eyebrow">01 / A HISTÓRIA</p>
+          <h2 id="historia-titulo">O dinheiro não<br>comprou a imunidade.</h2>
+          <p>Antes do colapso, Viktor Romanov colecionava luxo e carros de corrida. Quando o vírus chegou, ele se refugiou na mansão com sua fortuna — e trancou sua joia mais preciosa na garagem.</p>
+          <p>Agora, <strong>Os Renegados</strong> ocupam a propriedade. O líder carrega o cartão da garagem. Romanov, infectado e isolado na suíte, continua com a chave do carro. O Colecionador tem uma proposta para quem conseguir recuperar os dois.</p>
+        </div>
+        <aside class="intel-card" aria-labelledby="intel-titulo">
+          <p class="eyebrow">INFORMAÇÃO DE CAMPO</p>
+          <h3 id="intel-titulo">Dois alvos.<br>Um tesouro.</h3>
+          <dl>
+            <div><dt>Líder da gangue</dt><dd>Cartão → acesso à garagem</dd></div>
+            <div><dt>Viktor Romanov</dt><dd>Chave → uso do veículo*</dd></div>
+          </dl>
+          <p class="small-print">*Conforme o sistema de chaves do mod escolhido. Portas, loot e pareamento precisam ser configurados e testados no servidor.</p>
+        </aside>
+      </section>
+
+      <section id="missao" class="section container" aria-labelledby="missao-titulo">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 / A OPERAÇÃO</p><h2 id="missao-titulo">Entre a pé. Saia acelerando.</h2></div>
+          <span class="section-label">QUATRO FASES · PvE TÁTICO</span>
+        </div>
+        <ol class="phases">
+          <li><span class="phase-number" aria-hidden="true">01</span><h3>Rompa o cerco</h3><p>Elimine os vigias do pátio, dos jardins e das entradas. Abra caminho sem deixar o grupo exposto.</p><span class="phase-tag">PERÍMETRO</span></li>
+          <li><span class="phase-number" aria-hidden="true">02</span><h3>Encontre o líder</h3><p>Avance pelos corredores, recolha relíquias e derrote o chefe da gangue para recuperar o cartão da garagem.</p><span class="phase-tag">INVASÃO & LOOT</span></li>
+          <li><span class="phase-number" aria-hidden="true">03</span><h3>Enfrente Romanov</h3><p>Abra a suíte e derrote o milionário infectado e seus seguranças. A chave original é o próximo objetivo.</p><span class="phase-tag">INFECTADO ESPECIAL</span></li>
+          <li><span class="phase-number" aria-hidden="true">04</span><h3>Prepare a fuga</h3><p>Abra a garagem, instale as peças, complete água e combustível. Venda o carro ao Colecionador ou fique com ele.</p><span class="phase-tag">MONTAGEM & EXTRAÇÃO</span></li>
+        </ol>
+      </section>
+
+      <section id="veiculos" class="section container" aria-labelledby="veiculos-titulo">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / O TESOURO SOBRE RODAS</p><h2 id="veiculos-titulo">O prêmio tem personalidade.</h2></div>
+          <a class="text-link" href="docs/catalogo-midia.md">Todas as referências <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="section-intro">Inspirações visuais já presentes no repositório. O veículo final depende dos mods disponíveis e da homologação do servidor.</p>
+        <div class="vehicle-grid">
+          <article class="vehicle-card">
+            <a href="assets/images/vehicles/charger_ext_1.jpg" aria-label="Abrir imagem de referência do Dodge Charger">
+              <img src="assets/images/vehicles/charger_ext_1.jpg" alt="Vista traseira de um Charger preto em um cenário do jogo." width="1200" height="675" loading="lazy">
+            </a>
+            <div><span>FORÇA CLÁSSICA</span><h3>Dodge Charger</h3><p>Referência · R/T 1970</p></div>
+          </article>
+          <article class="vehicle-card">
+            <a href="assets/images/vehicles/r34_workshop.jpg" aria-label="Abrir imagem de referência do Nissan Skyline">
+              <img src="assets/images/vehicles/r34_workshop.jpg" alt="Skyline cinza estacionado em um campo de testes no jogo." width="1200" height="675" loading="lazy">
+            </a>
+            <div><span>ÍCONE DAS RUAS</span><h3>Nissan Skyline</h3><p>Referência · GT-R R34</p></div>
+          </article>
+          <article class="vehicle-card">
+            <a href="assets/images/vehicles/dayz-mazda-rx-7-fd-mod-car-1.jpg" aria-label="Abrir imagem de referência do Mazda RX-7">
+              <img src="assets/images/vehicles/dayz-mazda-rx-7-fd-mod-car-1.jpg" alt="RX-7 amarelo apresentado em uma estrada do jogo." width="686" height="396" loading="lazy">
+            </a>
+            <div><span>ESPÍRITO DO DRIFT</span><h3>Mazda RX-7</h3><p>Referência · FD</p></div>
+          </article>
+          <article class="vehicle-card">
+            <a href="assets/images/vehicles/dayz-nissan-silvia-s15-car-mod-dayz-1.jpg" aria-label="Abrir imagem de referência do Nissan Silvia">
+              <img src="assets/images/vehicles/dayz-nissan-silvia-s15-car-mod-dayz-1.jpg" alt="Silvia branco estacionado em um cenário do jogo." width="640" height="360" loading="lazy">
+            </a>
+            <div><span>PRECISÃO JAPONESA</span><h3>Nissan Silvia</h3><p>Referência · S15</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="choice-section" aria-labelledby="escolha-titulo">
+        <div class="container choice-inner">
+          <div><p class="eyebrow">A GRANDE ESCOLHA</p><h2 id="escolha-titulo">A fortuna.<br><em>Ou a lenda.</em></h2></div>
+          <div><p>Venda o veículo por uma fortuna no Colecionador ou leve uma máquina exclusiva para a sua garagem. As relíquias da mansão podem render uma recompensa à parte.</p><p class="small-print">Preços e exclusividade são sugestões do roteiro e precisam de configuração e balanceamento. Respeite a posse do grupo que iniciou o evento: roubo de loot e de veículo é proibido nas regras propostas.</p></div>
+        </div>
+      </section>
+
+      <section id="documentacao" class="section container" aria-labelledby="docs-titulo">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 / ARQUIVOS DA OPERAÇÃO</p><h2 id="docs-titulo">Do conceito ao servidor.</h2></div>
+          <span class="section-label">DOCUMENTOS EM MARKDOWN</span>
+        </div>
+        <div class="docs-grid">
+          <a class="doc-card" href="docs/roteiro_evento_mansao_milionario.md"><span class="doc-type">ROTEIRO <span aria-hidden="true">↗</span></span><h3>O evento completo</h3><p>História, fases, loadouts, economia, regras e textos prontos para divulgação.</p></a>
+          <a class="doc-card" href="docs/preparacao-servidor.md"><span class="doc-type">ADMINISTRAÇÃO <span aria-hidden="true">↗</span></span><h3>Preparar e homologar</h3><p>Decisões técnicas e checklist para testar o evento antes de anunciá-lo.</p></a>
+          <a class="doc-card" href="docs/catalogo-midia.md"><span class="doc-type">REFERÊNCIAS <span aria-hidden="true">↗</span></span><h3>Catálogo de mídias</h3><p>Imagens e áudio organizados por categoria, com duplicatas identificadas.</p></a>
+          <a class="doc-card" href="docs/auditoria.md"><span class="doc-type">VERIFICAÇÃO <span aria-hidden="true">↗</span></span><h3>O que foi revisado</h3><p>Integridade dos arquivos, ajustes realizados e pendências do projeto.</p></a>
+        </div>
+        <p class="small-print docs-note">Os documentos podem abrir como texto ou download no navegador. Para uma leitura formatada, use o GitHub ou um editor de Markdown.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div><strong>HERANÇA FURIOSA</strong><p>Conceito de evento PvE para DayZ.<br>Mídias de referência: confirme autoria e permissões antes de publicar.</p></div>
+        <div class="footer-links"><a href="README.md">Guia do repositório</a><a href="docs/inventario-midia.json">Inventário SHA-256</a><a href="#inicio">Voltar ao início ↑</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
