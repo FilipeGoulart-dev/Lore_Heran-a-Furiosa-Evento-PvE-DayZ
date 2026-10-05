@@ -18,7 +18,7 @@
 1. Roteiro movido para `docs/`, mantendo a história, as fases e os textos de divulgação.
 2. Mídias separadas em veículos, locais, mods, referências e áudio. **Nenhuma mídia original foi removida, recomprimida ou modificada.**
 3. Criados README, guia de preparação e catálogo de todos os arquivos.
-4. Criada uma página estática em `index.html`, substituindo a página vazia. Ela usa imagens locais e não incorpora streaming nem o MP3 de origem desconhecida.
+4. Criada uma página estática resumida em `index.html`, no lugar da página vazia. **Correção posterior:** essa página foi descartada e a apresentação autoral foi restaurada **byte a byte** a partir do commit `84d561a` (`apresentacao_heranca_furiosa.html`). Ver [Restauração da apresentação original](#restauração-da-apresentação-original).
 5. Registrados caminhos originais, tamanhos e SHA-256 no [inventário](inventario-midia.json).
 6. Adicionados verificador sem dependências, testes unitários e workflow de verificação no GitHub Actions.
 7. No roteiro, esclarecido que o cartão abre a garagem e a chave permite usar o carro conforme o mod escolhido; uma exigência conjunta na porta não é presumida.
@@ -49,19 +49,27 @@ Ambos mostram a mesma miniatura de interior e não comprovam qual veículo está
 - [Arquivo nomeado como mansão SSM](../assets/images/locations/dayz-ssm-mansion-mod-j-12-dayz-mansion-s-2.jpg): a imagem mostra uma divulgação de *Expansion Missions*, não uma vista da mansão. Não usá-la como confirmação do modelo de construção.
 - Existem miniaturas de 140–148 pixels de largura: adequadas apenas como referências pequenas, não para banners ou identificação confiável de mods.
 - `rx7_han_concept.jpg` e `rx7_han_concept.png` mostram o mesmo conceito visual em arquivos distintos. Não são duplicatas binárias; ambos foram preservados.
-- A captura em `assets/images/references/` documenta um player incorporado indisponível na apresentação anterior. Não há HTML original funcional para recuperar a integração ou confirmar a fonte da música.
+- A captura em `assets/images/references/` documenta um player incorporado da apresentação original. Com o `index.html` restaurado, volte a conferir a integração e a fonte da música antes de publicar.
 
 Consulte o [catálogo](catalogo-midia.md) para abrir cada arquivo. As categorias se baseiam nos nomes e temas do material existente, não em uma validação de autoria ou de compatibilidade.
+
+## Restauração da apresentação original
+
+O commit `1324f3a` renomeou `apresentacao_heranca_furiosa.html` para `index.html`, mas o arquivo resultante ficou com 2 bytes, sem conteúdo. A organização registrada acima havia substituído esse arquivo vazio por uma página resumida; essa página foi **descartada** e a apresentação original foi recuperada do commit `84d561a`.
+
+- `index.html`: restaurado com 10.271.748 bytes e SHA-256 `5b820c9290c4968919067dd4103c0fe1dc991f2a576c67d7fe6aeb093032da8f`, idêntico ao arquivo enviado pelo responsável do projeto.
+- Removido `assets/css/styles.css`, que existia apenas para a página descartada e não é referenciado por nenhum outro documento.
+- Nenhuma mídia, roteiro ou documento foi alterado nessa restauração.
+
+A apresentação original é autossuficiente: imagens e áudio estão embutidos como `data:` URIs, com estilos e scripts no próprio HTML. Ela não usa os arquivos de `assets/` e mantém links externos para o Workshop do Steam, que não são verificados automaticamente.
 
 ## Verificações finais locais
 
 - Verificador de referências, catálogo e integridade das 41 mídias: aprovado, com um aviso para o par de arquivos idênticos preservado.
 - Comparação direta de cada mídia com o arquivo original no Git: 41 de 41 com bytes idênticos.
 - Suite unitária do verificador: 20 testes aprovados.
-- Página verificada no Chromium em larguras de 320, 390, 768, 1.024 e 1.440 pixels, sem overflow horizontal.
-- Imagens, CSS e destinos dos links da página respondem por HTTP sem erro; navegação por âncoras e link de salto pelo teclado funcionam.
-- Abertura direta do HTML com JavaScript desativado e carregamento sob um prefixo de projeto (simulação de GitHub Pages): aprovados.
-- Checagem automática do axe-core para regras WCAG A/AA no desktop: sem violações apontadas. Isso não substitui uma auditoria manual completa de acessibilidade.
+- `index.html` restaurado: analisado pelo verificador (HTML não vazio, IDs únicos e referências internas válidas); os `data:` URIs são ignorados pela checagem, como qualquer URL externa.
+- A página resumida anterior foi testada em navegador (larguras de 320 a 1.440 pixels, navegação por teclado e axe-core), mas ela **não faz mais parte do repositório**; as verificações de renderização, acessibilidade e áudio automático não se aplicam ao arquivo restaurado e precisam ser refeitas pelo responsável do projeto.
 
 As ferramentas de navegador e decodificação usadas pontualmente não foram adicionadas como dependências do projeto. As verificações descritas acima foram realizadas localmente; os resultados do workflow devem ser consultados no GitHub. Não houve publicação do site nem execução do evento em um servidor DayZ.
 
