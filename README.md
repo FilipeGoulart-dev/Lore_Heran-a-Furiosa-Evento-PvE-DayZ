@@ -8,7 +8,7 @@
 
 | Material | Conteúdo |
 | --- | --- |
-| [Página inicial](index.html) | Apresentação resumida e navegação pelos materiais. |
+| [Página inicial](index.html) | Apresentação do evento criada pelo responsável do projeto (arquivo autossuficiente, com mídias incorporadas). |
 | [Roteiro do evento](docs/roteiro_evento_mansao_milionario.md) | Lore, quatro fases, inimigos, economia, regras e textos de divulgação. |
 | [Preparação do servidor](docs/preparacao-servidor.md) | Decisões técnicas, cuidados e checklist de homologação. |
 | [Catálogo de mídias](docs/catalogo-midia.md) | Todos os arquivos de imagem e áudio, agrupados por categoria. |
@@ -18,9 +18,8 @@
 
 ```text
 .
-├── index.html                    # Página estática, sem framework ou build
+├── index.html                    # Apresentação original do evento (HTML autossuficiente)
 ├── assets/
-│   ├── css/styles.css
 │   ├── images/
 │   │   ├── vehicles/              # Charger, Skyline, RX-7 e Silvia
 │   │   ├── locations/             # Mansões, construções e mapa
@@ -43,7 +42,9 @@ A página funciona diretamente ao abrir `index.html` em um navegador. Para servi
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-Em uma máquina local, abra `http://localhost:8000`. No workspace, use o endereço de prévia fornecido pela plataforma. A página usa somente caminhos relativos, sem fontes externas, streaming, JavaScript ou reprodução automática de áudio. Os documentos vinculados são arquivos Markdown: leia-os pelo GitHub ou em um editor; um servidor estático pode exibi-los como texto ou oferecer o download.
+Em uma máquina local, abra `http://localhost:8000`. No workspace, use o endereço de prévia fornecido pela plataforma.
+
+O `index.html` é a **apresentação original do evento**, mantida byte a byte como foi enviada pelo responsável do projeto. Ela é autossuficiente: as imagens e a música estão incorporadas no próprio arquivo, que também traz seus estilos e scripts embutidos e links para as páginas do Workshop no Steam. Por isso o arquivo tem cerca de 10 MB e deve ser editado apenas pelo responsável do projeto. Os documentos em `docs/` são arquivos Markdown: leia-os pelo GitHub ou em um editor; um servidor estático pode exibi-los como texto ou oferecer o download.
 
 Para GitHub Pages, após revisar as permissões das mídias, configure a publicação da raiz da branch desejada nas configurações do repositório. O arquivo `.nojekyll` permite servir os arquivos sem processamento pelo Jekyll. Nenhuma publicação foi ativada por esta organização.
 
@@ -60,7 +61,7 @@ O verificador confere arquivos e fragmentos HTML/Markdown referenciados localmen
 
 ## Manter a organização
 
-1. Edite o roteiro canônico em `docs/roteiro_evento_mansao_milionario.md`; mantenha o resumo de `index.html` coerente com ele.
+1. Edite o roteiro canônico em `docs/roteiro_evento_mansao_milionario.md`. O `index.html` é a apresentação autoral do responsável do projeto: altere-o somente a pedido dele.
 2. Coloque novas imagens na categoria adequada e áudio em `assets/audio/`. Use nomes descritivos, de preferência em minúsculas e sem espaços.
 3. Registre autoria, origem e autorização de uso no relatório antes de publicar novas mídias.
 4. **Somente após uma alteração intencional e revisada de mídia**, atualize o inventário e o catálogo:
